@@ -1,4 +1,4 @@
-import { createRouter,createWebHashHistory } from "vue-router";
+import { createRouter,createWebHashHistory,createWebHistory } from "vue-router";
 
 //制定路由規則
 
@@ -48,7 +48,7 @@ const routes = [
 
 const router = createRouter({
     //設置路由的模式
-    history:createWebHashHistory(),
+    history:createWebHistory(),
     routes
 })
 
